@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF_APP_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_APP_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF87EBD4">
+        <Label Content="Please enter your full name" HorizontalAlignment="Left" Height="38" Margin="69,36,0,0" VerticalAlignment="Top" Width="318" FontSize="24"/>
+        <Label Content="Please enter your Address" HorizontalAlignment="Left" Height="41" Margin="69,112,0,0" VerticalAlignment="Top" Width="323" FontSize="24"/>
+        <Label Content="Enter your Zip Code" HorizontalAlignment="Left" Height="43" Margin="69,195,0,0" VerticalAlignment="Top" Width="287" FontSize="24"/>
+        <TextBox x:Name="Names" HorizontalAlignment="Left" Height="38" Margin="392,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301"/>
+        <TextBox x:Name="Address" HorizontalAlignment="Left" Height="41" Margin="392,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301"/>
+        <TextBox x:Name="ZipCode" HorizontalAlignment="Left" Height="42" Margin="392,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301"/>
+        <Button x:Name="Submission" Content="Submit" HorizontalAlignment="Left" Margin="340,279,0,0" VerticalAlignment="Top" Width="112" Height="35" RenderTransformOrigin="0.14,0.244" Background="#FFE05757" Click="Submission_Click"/>
+        <ListBox x:Name="LB1" HorizontalAlignment="Left" Height="67" Margin="156,343,0,0" VerticalAlignment="Top" Width="537"/>
+
+    </Grid>
+</Window>
